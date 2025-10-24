@@ -1,0 +1,21 @@
+### Test GET endpoint
+GET http://localhost:3000/
+
+### Test POST endpoint
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "email": "john@example.com",
+  "age": 30
+}
+
+### Test POST endpoint with different data
+POST http://localhost:3000/users
+Content-Type: application/json
+
+{
+  "username": "jane_smith",
+  "role": "admin"
+}
