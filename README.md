@@ -1,4 +1,6 @@
-# NestJS REST API Project
+# NestJS REST API Project Created For People looking for learning Nestjs
+
+#Level: Beginner 
 
 A comprehensive NestJS REST API project demonstrating best practices for building scalable backend applications with TypeScript, TypeORM, and MySQL.
 
