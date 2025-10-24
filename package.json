@@ -1,10 +1,24 @@
 {
-  "name": "nestapi",
-  "version": "0.0.1",
-  "description": "",
-  "author": "",
-  "private": true,
-  "license": "UNLICENSED",
+  "name": "nestjs-rest-api",
+  "version": "1.0.0",
+  "description": "A comprehensive NestJS REST API project demonstrating best practices for building scalable backend applications",
+  "author": "Your Name",
+  "private": false,
+  "license": "MIT",
+  "keywords": [
+    "nestjs",
+    "rest-api",
+    "typescript",
+    "typeorm",
+    "mysql",
+    "backend",
+    "nodejs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nestjs-rest-api.git"
+  },
+  "homepage": "https://github.com/yourusername/nestjs-rest-api#readme",
   "scripts": {
     "build": "nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
