@@ -4,6 +4,16 @@
 
 A comprehensive NestJS REST API project demonstrating best practices for building scalable backend applications with TypeScript, TypeORM, and MySQL.
 
+## 🎯 Project Creation
+
+This project was created using the standard NestJS CLI:
+```bash
+nest new nestapi
+cd nestapi
+```
+
+Then enhanced with additional features like TypeORM, validation, and database integration.
+
 ## 🚀 Features
 
 - **RESTful API** with full CRUD operations
@@ -46,6 +56,21 @@ cd nestapi
 2. **Install dependencies**
 ```bash
 npm install
+```
+
+### Alternative: Create from scratch
+If you want to create a similar project from scratch:
+```bash
+# 1. Create new NestJS project
+nest new my-nestjs-api
+cd my-nestjs-api
+
+# 2. Install additional dependencies
+npm install @nestjs/typeorm typeorm mysql2 class-validator class-transformer
+
+# 3. Set up database configuration
+# 4. Create entities, DTOs, and services
+# 5. Configure validation and error handling
 ```
 
 3. **Set up environment variables**
