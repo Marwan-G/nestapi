@@ -19,7 +19,7 @@ export class PaymentService {
   
   }
 
-  async findAll() {
+  async getAllPayments() {
     const payment = await this.paymentsRepo.find()
     return payment;
   }
@@ -45,7 +45,6 @@ export class PaymentService {
 
   async remove(id: number) {
     const result = await this.paymentsRepo.delete(id);
-    console.log(result)
 
     if (result.affected === 0) {
       throw new NotFoundException(`Payment with id ${id} not found`);

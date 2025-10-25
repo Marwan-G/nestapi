@@ -1,4 +1,4 @@
-# NestJS REST API Project Created For People looking for learning Nestjs
+# NestJS REST API Project Created For People looking to learn Nestjs
 
 #Level: Beginner 
 

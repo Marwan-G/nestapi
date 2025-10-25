@@ -13,8 +13,8 @@ export class PaymentController {
   }
 
   @Get()
-  findAll() {
-    return this.paymentService.findAll();
+  getAllPayments() {
+    return this.paymentService.getAllPayments();
   }
 
   @Get(':id')
